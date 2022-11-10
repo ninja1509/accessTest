@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Instance Request Enterprise Account</h1>
+    <div>
+        <label>Course Name</label> <input type="text" id="course">
+        <label>Email ID</label> <input type="text" id="email">
+        <label>Instance Requested</label> <input type="text" id="instance">
+        <label>Thread URL</label> <input type="url" id="url">
+        <br>
+        <button type="button" onclick="enter()" id="add">Request</button>
+    </div>
+
+    <div>
+        <h2> Active Requests </h2>
+        <table id="myTable">
+        <tr class="ribbon">
+            <td>Course Name</td>
+            <td>Learner's Email ID</td>
+            <td>Instance Required</td>
+            <td>Created</td>
+            <td>Created by</td>
+            <td>URL</td>
+        </tr>
+
+        </table>
+    </div>
+
+    <h2> Created list </h2>
+    <div>
+        <table id="check">
+            <tr class="ribbon">
+                <td>Course Name</td>
+                <td>Learner's Email ID</td>
+                <td>Instance Created</td>
+                <td>Created by</td>
+                <td>URL</td>
+            </tr>
+        </table>
+
+    </div>
+  
+
+</body>
+</html>
